@@ -14,7 +14,7 @@ export function getResourceSize(url) {
         return undefined;
     }
 }
-
+console.log('Render');
 // Note: this only works on the server side
 export function getNetlifyContext() {
     return process.env.CONTEXT;
